@@ -1,4 +1,4 @@
-const PROXY_URL = 'https://openrouter.ai'
+const PROXY_URL = 'https://image.novelai.net'
 
 export default defineEventHandler(async event => {
     const url = getRequestURL(event)
